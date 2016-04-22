@@ -24,7 +24,7 @@ A simple html 5 popup
 
 - Include the JS script (just before closing the body tag)
   ```html
-  <script src="js/lib/simple-popup.min.js"></script>
+  <script src="js/lib/simpop.min.js"></script>
    ```
   
 - Open it
