@@ -1,4 +1,5 @@
-# simple-popup-html5
+# Simpop
+A simple html 5 popup
 
 # How to use it ? 
 
@@ -32,10 +33,6 @@
 ```
 
 
-
-
-
-
 # Configs
 
 * `id`: DOM id used to open the popup (required)
@@ -47,7 +44,7 @@
 * `canelbtn`: label of the cancel button (default is 'No') (optional)
 * `height`: height (optional)
 * `width`: width (optional)
-* `resizable : true/false (optional)
+* `resizable` : true/false (optional)
 
 
 Notice that [jquery ui](https://jqueryui.com/) is required!
