@@ -14,8 +14,8 @@ A simple html 5 popup
 	  oncancel="var msg = 'canceled'; alert(msg);" 
 	  height="120" 
 	  width="400" 
-	  resizable="true"
-         class = "cssClass">
+	  resizable="true" 
+	  class = "cssClass">
 </popup>
 ```
 
