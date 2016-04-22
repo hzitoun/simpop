@@ -3,7 +3,7 @@ if ('undefined' == typeof window.jQuery) {
 } else if ('undefined' == typeof window.jQuery.ui) {
   throw new Error('jQuery ui is required!');
 }
-$('popup').each(function () {
+$('simpop').each(function () {
   var attributes = $(this).context.attributes;
   $(this).html(attributes.text ? attributes.text.value : '');
   var confirmbtn = attributes.confirmbtn ? attributes.confirmbtn.value : 'Yes';
