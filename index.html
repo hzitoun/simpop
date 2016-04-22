@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<link href="css/jquery-ui.min.css" rel="stylesheet">
+	<script src="js/jqueryui/jquery-1.12.3.min.js"></script>
+    <script src="js/jqueryui/jquery-ui.min.js"></script>
+</head>
+<body>
+	 <header>
+            <h1>Simple Popup example</h1>
+     </header>
+	<popup id="popup1" text="Some text comes here" title="Popup Title" onconfirm="fnOnConfirm();" oncancel="var msg = 'canceled!'; alert(msg);" height="120" width="400" resizable="true">
+	</popup>
+	<button role="button" onclick="popup1.open();" class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only" id="button"><span class="ui-button-text">Open PopUp</button>
+</body>
+<script>
+function fnOnConfirm(){alert('confirmed!');}
+</script>
+<script src="js/lib/simple-popup.js"></script>
+</html>
