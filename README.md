@@ -11,12 +11,11 @@ A simple html 5 popup
 	  text="popup body comes here" 
 	  title="Popup Title" 
 	  onconfirm="fnOnConfirm();" 
-	  oncancel="var msg = 'canceled!'; alert(msg);" 
+	  oncancel="var msg = 'canceled'; alert(msg);" 
 	  height="120" 
 	  width="400" 
 	  resizable="true"
-      class = "css class"
-	  >
+         class = "cssClass">
 </popup>
 ```
 
