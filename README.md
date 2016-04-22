@@ -6,7 +6,7 @@ A simple html 5 popup
 - Add the following HTML 5 component to your page to initialize the popup
 
   ```html
-  <popup 
+  <simpop 
       id="popupid" 
 	  text="popup body comes here" 
 	  title="Popup Title" 
@@ -16,7 +16,7 @@ A simple html 5 popup
 	  width="400" 
 	  resizable="true" 
 	  class = "cssClass">
-</popup>
+</simpop>
 ```
 
   \
