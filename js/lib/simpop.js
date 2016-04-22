@@ -9,7 +9,7 @@ $('simpop').each(function () {
   var confirmbtn = attributes.confirmbtn ? attributes.confirmbtn.value : 'Yes';
   var cancelbtn = attributes.cancelbtn ? attributes.cancelbtn.value : 'No';
   var height = attributes.height ? attributes.height.value : 120;
-  var width = attributes.width ? attributes.width.value : 120;
+  var width = attributes.width ? attributes.width.value : 400;
   var popupClass =  attributes.class ? attributes.class.value : '';
   var resizable = attributes.resizable ? attributes.resizable.value === 'true' : true
   $(this).dialog({
