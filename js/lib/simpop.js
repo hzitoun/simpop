@@ -39,6 +39,9 @@ $('simpop').each(function () {
       }
     ]
   });
+if('undefined' === typeof attributes.id){
+  throw new Error('Popup\'s id is required');
+}  
 eval(attributes.id.value).open = function(){
  	$(this).dialog('open');
  } 
