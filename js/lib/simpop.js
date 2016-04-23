@@ -1,6 +1,6 @@
-if ('undefined' == typeof window.jQuery) {
+if ('undefined' === typeof window.jQuery) {
   throw new Error('jQuery is required!');
-} else if ('undefined' == typeof window.jQuery.ui) {
+} else if ('undefined' === typeof window.jQuery.ui) {
   throw new Error('jQuery ui is required!');
 }
 $('simpop').each(function () {
