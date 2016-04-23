@@ -1,7 +1,7 @@
 # Simpop
 A simple html 5 popup
 
-# How to use it ? 
+## How to use it ? 
 
 - Add the following HTML 5 component to your page to initialize the popup
 
@@ -32,7 +32,7 @@ A simple html 5 popup
 ```
 
 
-# Configs
+## Configs
 
 * `id`: DOM id used to open the popup (required)
 * `title`:  title of the popup (optional)
