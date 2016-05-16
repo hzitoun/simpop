@@ -19,7 +19,7 @@ A simple html 5 popup
 </simpop>
 ```
 
-  \
+  
 
 - Include the JS script (just before closing the body tag)
   ```html
