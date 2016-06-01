@@ -1,28 +1,30 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-    <link href="css/jquery-ui.min.css" rel="stylesheet">
-    <script src="js/jqueryui/jquery-1.12.3.min.js"></script>
-    <script src="js/jqueryui/jquery-ui.min.js"></script>
-</head>
-<body>
-     <header>
-            <h1>Simpop example</h1>
-     </header>
-     <simpop id="popup1"
-     	text="Some text comes here" 
-     	title="Popup Title" 
-     	onconfirm="fnOnConfirm();" 
-     	oncancel="var msg = 'canceled!'; alert(msg);">
-     </simpop>
-      <button role="button" onclick="popup1.open();" 
-      	class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only">
-      	<span class="ui-button-text">Click here to Open Simpop
-      </button>
-</body>
-<script>
-function fnOnConfirm(){alert('confirmed!');}
-</script>
-<script src="js/lib/simpop.min.js"></script>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<link href="css/jquery-ui.min.css" rel="stylesheet">
+		<script src="js/jqueryui/jquery-1.12.3.min.js"></script>
+		<script src="js/jqueryui/jquery-ui.min.js"></script>
+	</head>
+	<body>
+		<header>
+			<h1>Simpop example</h1>
+		</header>
+		<simpop id="popup1" 
+				text="Some text comes here" 
+				title="Popup Title"
+				onconfirm="fnOnConfirm();"
+				oncancel="var msg = 'canceled!'; alert(msg);"> 
+		</simpop>
+		<button onclick="popup1.open();"
+			class="ui-button ui-widget ui-state-default ui-corner-all ui-button-text-only">
+			<span class="ui-button-text">Click here to Open Simpop</span>
+		</button>
+		<script>
+			function fnOnConfirm() {
+				alert('confirmed!');
+			}
+		</script>
+		<script src="js/lib/simpop.min.js"></script>
+	</body>
 </html>

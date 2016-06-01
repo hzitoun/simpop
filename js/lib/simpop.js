@@ -5,6 +5,9 @@ if ('undefined' === typeof window.jQuery) {
 }
 $('simpop').each(function () {
   var attributes = $(this).context.attributes;
+  if('undefined' === typeof attributes.id){
+	  throw new Error('Popup\'s id is required');
+  } 
   $(this).html(attributes.text ? attributes.text.value : '');
   var confirmbtn = attributes.confirmbtn ? attributes.confirmbtn.value : 'Yes';
   var cancelbtn = attributes.cancelbtn ? attributes.cancelbtn.value : 'No';
@@ -38,10 +41,7 @@ $('simpop').each(function () {
         }
       }
     ]
-  });
-if('undefined' === typeof attributes.id){
-  throw new Error('Popup\'s id is required');
-}  
+  }); 
 eval(attributes.id.value).open = function(){
  	$(this).dialog('open');
  } 
