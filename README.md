@@ -20,12 +20,6 @@ A simple html 5 popup
 ```
 
   
-
-- Include the JS script (just before closing the body tag)
-  ```html
-  <script src="js/lib/simpop.min.js"></script>
-   ```
-  
 - Open it
    ```html
   <button onclick="popupid.open();"></button>
@@ -34,13 +28,13 @@ A simple html 5 popup
 
 ## Configs
 
-* `id`: DOM id used to open the popup (required)
+* `id`: DOM ID used to open the popup (required)
 * `title`:  title of the popup (optional)
 * `text`:  the body of the popup (optional)
 * `onconfirm`: JS code to be executed when the confirm button is clicked (optional)
 * `oncancel`: JS code to be executed when the cancel button is clicked (optional)
-* `confirmbtn`:  label of confirm button (default is 'Yes') (optional)
-* `canelbtn`: label of the cancel button (default is 'No') (optional)
+* `confirmbtn`:  label of confirm button; default is 'Yes' (optional)
+* `canelbtn`: label of the cancel button; default is 'No' (optional)
 * `height`: height (optional)
 * `width`: width (optional)
 * `resizable` : true/false (optional)
