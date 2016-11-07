@@ -1,7 +1,7 @@
 # Simpop
 A simple html 5 popup
 
-## How to use it ? 
+## Usage 
 
 - Add the following HTML 5 component to your page to initialize the popup
 
