@@ -3,7 +3,7 @@ A simple html 5 popup
 
 ## Usage 
 
-- Add the following HTML 5 component to your page to initialize the popup
+- Add the following HTML 5 component to your page in order to initialize the popup
 
   ```html
   <simpop 
@@ -19,7 +19,12 @@ A simple html 5 popup
 </simpop>
 ```
 
-  
+- Put the simpop script anywhere on your page
+
+  ```html
+  <script src="js/lib/simpop.min.js"></script>
+```
+
 - Open it
    ```html
   <button onclick="popupid.open();"></button>
