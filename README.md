@@ -17,7 +17,7 @@ A simple html 5 popup
 	  resizable="true" 
 	  class = "cssClass">
 </simpop>
-```
+  ```
 
 - Put the simpop script anywhere on your page
 
