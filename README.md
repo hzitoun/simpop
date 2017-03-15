@@ -23,12 +23,12 @@ A simple html 5 popup
 
   ```html
   <script src="js/lib/simpop.min.js"></script>
-```
+  ```
 
 - Open it
    ```html
   <button onclick="popupid.open();"></button>
-```
+   ```
 
 
 ## Configs
