@@ -15,8 +15,8 @@ A simple html 5 popup
 	  height="120" 
 	  width="400" 
 	  resizable="true" 
-	  class = "cssClass">
-</simpop>
+	  class = "cssClass"/>
+
   ```
 
 - Put the simpop script anywhere on your page
