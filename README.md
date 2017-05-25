@@ -19,13 +19,13 @@ A simple html 5 popup
 
   ```
 
-- Put the simpop script anywhere on your page
+- import the simpop script
 
   ```html
   <script src="js/lib/simpop.min.js"></script>
   ```
 
-- Open it
+- Open it (when clicking on a button for example)
    ```html
   <button onclick="popupid.open();"></button>
    ```
